@@ -13,7 +13,7 @@ public class NorwayMotherOfAllFlags {
 	private static void mother() {
 		StdDraw.clear();
 		StdDraw.setPenColor(255, 0, 0);
-		StdDraw.filledRectangle(3, 3, 3, 3);
+		
 		StdDraw.filledRectangle(3, 13, 3, 3);
 		StdDraw.filledRectangle(16, 3, 6, 3);
 		StdDraw.filledRectangle(16, 13, 6, 3);
@@ -29,7 +29,9 @@ public class NorwayMotherOfAllFlags {
 	}
 
 	public static void france() {
-		
+		StdDraw.setCanvasSize(12,12);
+		StdDraw.setPenColor(0,0,200);
+		StdDraw.filledRectangle(4, 3, 4, 3);
 		// TODO
 	}
 
